@@ -15,6 +15,9 @@ body {
   background-attachment: fixed;  /* This makes the background image static */
 }
 
+a:visited {
+  color: inherit; /* Use the same color as the unvisited state */
+}
 
 /* ===== KEYFRAMES ===== */
 @keyframes fadeInUp {
